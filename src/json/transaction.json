@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "source": "A",
+        "target": "B",
+        "amount": 300,
+        "description": "tikkie"
+    },
+    {
+        "id": 2,
+        "source": "C",
+        "target": "D",
+        "amount": 400,
+        "description": "mabile pay"
+    },
+    {
+        "id": 3,
+        "source": "E",
+        "target": "F",
+        "amount": 500,
+        "description": "google pay"
+    },
+    {
+        "id": 2,
+        "source": "A",
+        "target": "B",
+        "amount": 600,
+        "description": "amazon pay"
+    }
+]

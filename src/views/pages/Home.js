@@ -1,13 +1,13 @@
 let Home = {
     render : async () => {
         let view =  /*html*/`
-            <section class="section">
-                <h1> Home </h1>                
-            </section>
-            <main>
-                <div>
-                    Welcome to HCL Test Find Duplicate Transactions 
-                </div>            
+            <main class="flex-shrink-0">
+                <div class="container">
+                    <h1 class="mt-5">Home</h1>
+                    <p class="lead">
+                        Welcome to HCL Test Find Duplicate Transactions 
+                    </p> 
+                </div>           
             </main>
         `
         return view

@@ -41,26 +41,24 @@ let Duplicate = {
 
 
        let view =  /*html*/`
-           <section class="section">
-               <h1> Duplicate Transaction </h1>
-               
-           </section>
+            <main class="flex-shrink-0">
+                <div class="container">
+                    <h1 class="mt-5">Duplicate Transaction</h1>
+                    <p class="lead">
+                        <h3>Actual Data</h3>
+                        <pre>
+                            ${ actualJson }
+                        </pre>                
+                    </p>
 
-           <div>
-                <h2>Actual Data</h2>
-                <pre>
-                    ${ actualJson }
-                </pre>
-                
-            </div>
-
-           <div>
-                <h2>Duplicate Data</h2>
-                <pre>
-                    ${ duplicateJson }
-                </pre>
-                
-            </div>
+                    <p class="lead">
+                        <h3>Duplicate Data</h3>
+                        <pre>
+                            ${ duplicateJson }
+                        </pre>                            
+                    </p>
+                </div>
+            </main>
        `
        return view
    }

@@ -1,11 +1,11 @@
 let Bottombar = {
     render: async () => {
         let view =  /*html*/`
-        <footer class="footer">
-            <div class="content has-text-centered">
-                <p>
-                Copyright © 2021 HCL Technologies Limited.
-                </p>
+        <footer class="footer mt-auto py-3 bg-light">
+            <div class="container content has-text-centered">
+                <span class="text-muted">
+                  Copyright © 2021 HCL Technologies Limited.
+                </span>
             </div>
         </footer>
         `

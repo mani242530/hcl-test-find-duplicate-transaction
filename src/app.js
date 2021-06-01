@@ -1,9 +1,7 @@
 "use strict";
 
 import Home         from './views/pages/Home.js'
-import About        from './views/pages/About.js'
 import Duplicate    from './views/pages/Duplicate.js'
-import Contact      from './views/pages/Contact.js'
 import Error404     from './views/pages/Error404.js'
 import Navbar       from './views/components/Navbar.js'
 import Bottombar    from './views/components/Bottombar.js'
@@ -12,9 +10,7 @@ import Utils        from './services/Utils.js'
 // List of supported routes.
 const routes = {
     '/'             : Home
-    , '/about'      : About
     , '/duplicate'  : Duplicate
-    , '/contact'    : Contact
 };
 
 

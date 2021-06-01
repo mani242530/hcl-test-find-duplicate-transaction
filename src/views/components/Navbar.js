@@ -11,13 +11,7 @@ let Navbar = {
                                 <a class="nav-link" href="/#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/#/duplicate">Duplicate</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/#/about">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/#/contact">Contact</a>
+                                <a class="nav-link" href="/#/duplicate">Duplicate Transaction</a>
                             </li>
                         </ul>
                     </div>
